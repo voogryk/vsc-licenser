@@ -73,6 +73,7 @@ const fsharp = new Notation("fsharp", ["(**", " *)"], "//", " *");
 const go = new Notation("go", ["/**", " */"], "//", " *");
 const groovy = new Notation("groovy", ["/**", " */"], "//", " *");
 const html = new Notation("html", ["<!--", "-->"], "", "");
+const vue = new Notation("vue", ["<!--", "-->"], "", "");
 const ini = new Notation("ini", ["", ""], ";", "");
 const java = new Notation("java", ["/**", " */"], "//", " *");
 const javascript = new Notation("javascript", ["/**", " */"], "//", " *");
@@ -122,6 +123,7 @@ export const notations: { [key: string]: Notation } = {
     "go": go,
     "groovy": groovy,
     "html": html,
+    "vue": vue,
     "ini": ini,
     "java": java,
     "javascript": javascript,
